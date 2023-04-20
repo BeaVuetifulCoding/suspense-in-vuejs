@@ -1,20 +1,38 @@
-# Suspense in Vue.js
+# Suspense in [<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vue_icon_130078.png" width="30px"/>](https://vuejs.org/)ue 3 <br>
 
 ## Description 📜
 
-Tutorial about the use of Suspense in Vue.js with practical examples.
+---
+
+Tutorial about the use of Suspense in Vue 3 with practical examples 🤗
+
+In the tutorial I demonstrated the basic usage of Suspense with nested async child component and loading state (I used the Spinner component that I also created in this tutorial), lazy loading components (created with defineAsincComponent), usage of 3 emitted events: pending, resolve and fallback and some ideas what you can do with this emitted events, onErrorCaptured hook for capturing async errors from descendent component and use of Suspense with other built-in components such as Transition, KeepAlive and "component" which is meta-component.
+
+About Suspense 🚦
+
+Suspense is a built-in component in Vue 3, that can render a loading state while waiting for nested async dependencies to be resolved. The important thing to remember is that Suspense is an experimental feature, but according to the last Vue.js Nation Conference, Vue.js core team members are predicting a stable release for the second quarter of 2023, which is probably going to be released in version 3.4.<br/>
+
+Suspense can wait on two types of dependencies: components with async setup() hook (script setup with the use of top-level await or setup() hook with an async keyword before it) and Async Components (that are used with defineAsyncComponents function).
 
 ---
 
-## Resources 📑
+## [Link](https://www.youtube.com/watch?v=IJohEZrLWEA) to YouTube tutorial 🔗
 
-[JSON Placeholder](https://jsonplaceholder.typicode.com/) - Fake REST API used in this tutorial
+---
 
-[Guide](https://tailwindcss.com/docs/guides/vite#vue) on how to install [Tailwindcss](https://tailwindcss.com/) in [Vue.js](https://vuejs.org/) project that uses [Vite](https://vitejs.dev/)
+## 📖 Resources
+
+---
+
+[JSON Placeholder](https://jsonplaceholder.typicode.com/) - Fake REST API used in this tutorial 🌐
+
+[Guide](https://tailwindcss.com/docs/guides/vite#vue) on how to install [Tailwindcss](https://tailwindcss.com/) in [Vue.js](https://vuejs.org/) project that uses [Vite](https://vitejs.dev/) 📑
 
 ## Other resources 📚
 
-### Vue.js:
+---
+
+### Vue.js ⛰️
 
 - https://vuejs.org/guide/built-ins/suspense.html#suspense
 - https://vuejs.org/guide/components/async.html#async-components
@@ -22,19 +40,19 @@ Tutorial about the use of Suspense in Vue.js with practical examples.
 - https://vuejs.org/guide/built-ins/keep-alive.html#keepalive
 - https://vuejs.org/guide/built-ins/transition.html#transition
 
-### Vue Router:
+### Vue Router 🚧
 
 - https://router.vuejs.org/
 
-### Vite:
+### Vite ⚡
 
 - https://vitejs.dev/
 
-### Tailwindcss:
+### Tailwindcss 🌬️
 
 - https://tailwindcss.com/
 
-### VSCode Extensions:
+### VSCode Extensions 🧩
 
 - https://marketplace.visualstudio.com/items?itemName=Vue.volar
 - https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
